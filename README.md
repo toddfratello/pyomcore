@@ -6,7 +6,7 @@ If they can do it, why not you and me too? Welcome to the Print Your Own Money (
 
 # How does it work?
 
-Every PYOMer has their own currency on their own blockchain. You print as much of your own currency as you like, and use it to trade with other PYOMers. For example, [here's]() a trade that I did with my buddy [Zac](https://github.com/zacveli): I gave him 420 of my Todds in exchange for 420 of his Zacs. But there's no rule that says that a Todd is worth exactly the same as a Zac, so maybe the next we trade it will be 69 Todds for 42069 Zacs. Other PYOMers can also trade your currency. For example, Zac could trade some of the 420 Todds that he got from me with his brother [Chad](https://github.com/chadveli).
+Every PYOMer has their own currency on their own blockchain. You print as much of your own currency as you like, and use it to trade with other PYOMers. For example, [here's](https://github.com/toddfratello/pyom_toddfratello/pull/1) a trade that I did with my buddy [Zac](https://github.com/zacveli): I gave him 420 of my Todds in exchange for 420 of his Zacs. But there's no rule that says that a Todd is worth exactly the same as a Zac, so maybe the next we trade it will be 69 Todds for 42069 Zacs. Other PYOMers can also trade your currency. For example, Zac could trade some of the 420 Todds that he got from me with his brother [Chad](https://github.com/chadveli).
 
 Other cryptocurrencies have designed their own networking protocols, proof-of-work algorithms, even new programming languages. That sounds like a lot of work, so PYOM doesn't do that. Instead, embracing the "move fast and break things" motto, PYOM is hacked together from a hodgepodge of off-the-shelf tools, like [git](https://git-scm.com/downloads) for record keeping and networking, [GnuPG](https://gnupg.org/) for cryptography, and [JSON](https://en.wikipedia.org/wiki/JSON) for the blockchain format. Don't worry, we'll slap a web interface on this thing soon and nobody'll need to know how the sausage was made.
 
@@ -74,7 +74,7 @@ git commit -m "Trade with Zac"  # commit on TradeWithZac branch
 git push  # Upload transaction to Zac's fork of Chad's pyom repo on GitHub
 ```
 
-Then Zac creates a [pull request]() on GitHub and Chad merges it. But Chad also needs to add a new block to his blockchain to sign and confirm the transaction:
+Then Zac creates a [pull request](https://github.com/chadveli/pyom_chadveli/pull/1) on GitHub and Chad merges it. But Chad also needs to add a new block to his blockchain to sign and confirm the transaction:
 
 ```bash
 cd ~/pyom/pyom_chadveli_deps/pyom_zacveli
@@ -146,7 +146,7 @@ Yes: it's distributed, it's crypto, and it's got blockchain. Add some hype and y
 
 ## When did the PYOM project start?
 
-[April 1, 2022]()
+[April 1, 2022](https://twitter.com/ToddFratello/status/1509817821743792160)
 
 ## Is PYOM a joke?
 
