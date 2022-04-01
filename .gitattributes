@@ -1,0 +1,2 @@
+# Treat all files as binary so that file hashes don't get broken by line ending changes.
+* -text diff

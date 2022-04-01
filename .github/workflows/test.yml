@@ -1,0 +1,24 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install gpg
+        run: sudo apt-get install python3-gpg
+      - name: Run tests
+        run: |
+          pip3 install .
+          cd tests/
+          ./test_pyomcore.py ./tmp https://github.com/toddfratello/pyomcore.git
